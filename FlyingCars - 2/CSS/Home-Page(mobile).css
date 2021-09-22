@@ -1,0 +1,131 @@
+@media {
+    max-width: 900px;
+}
+@font-face {
+    font-family: Headache;
+    src: url("../Headache-Font-OTF/Headache-Font-OTF.otf") format("opentype");
+}
+@font-face {
+    font-family: Potra;
+    src: url("../Potra/Potra.otf") format("opentype");
+}
+@font-face {
+    font-family: Manrope;
+    src: url("../manrope/regular.otf") format("opentype");
+}
+@font-face {
+    font-family: Carrinady;
+    src: url("../carrinady/Carrinady.otf") format("opentype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0A131A;
+    overflow:visible;
+    scroll-behavior: smooth;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+}
+
+/* Landing Page */
+
+section#landing-page {
+    background-image: url("../IMAGES/Banners/Banner-1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    padding-top: 5px;
+    width: 100%;
+}
+header #Logo {
+    text-align: center;
+    font-family: Headache;
+    color: lavender;
+    letter-spacing: 3px;
+    width: 100%;
+    font-size: 2.5rem;
+}
+header > #menu {
+    text-decoration: none;
+    color: lavender;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+header #menu li {
+    margin: 5px;
+    font-size: 1.4rem;
+    font-family: Potra;
+}
+header #menu li:hover {
+    color: lavenderblush;
+}
+
+section#landing-page img {
+    position: relative;
+    top: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main Text */
+
+section#main-text {
+    color: lavender;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: Manrope;
+}
+
+section#main-text h2 {
+    position: relative;
+    top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Contact */
+
+section#contact {
+    height: 35vh;
+}
+
+section#contact h1 {
+    text-align: center;
+    color: lavender;
+    font-size: 4rem;
+    font-family: carrinady;
+}
+
+section#contact ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section#contact img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* END */

@@ -1,0 +1,136 @@
+@media screen {
+    min-width: 900px;
+}
+@font-face {
+    font-family: Headache;
+    src: url("../Headache-Font-OTF/Headache-Font-OTF.otf") format("opentype");
+}
+@font-face {
+    font-family: Potra;
+    src: url("../Potra/Potra.otf") format("opentype");
+}
+@font-face {
+    font-family: Manrope;
+    src: url("../manrope/regular.otf") format("opentype");
+}
+@font-face {
+    font-family: Carrinady;
+    src: url("../carrinady/Carrinady.otf") format("opentype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0A131A;
+    overflow:visible;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+}
+
+/* Landing Page */
+
+section#landing-page {
+    background-image: url("../IMAGES/Banners/Banner-1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+section#landing-page header {
+    color: lavender;
+    width: 100%;
+    height: 100px;
+}
+
+section#landing-page header h1 {
+    float: left;
+    font-size: 3rem;
+    font-family: Headache;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+
+section#landing-page header ul {
+    display: flex;
+    float: right;
+    font-family: Potra;
+    list-style-type: none;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+    padding: 20px;
+}
+
+section#landing-page header ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+
+section#landing-page header ul li:hover {
+    color: lavenderblush;
+    text-decoration: underline;
+}
+
+section#landing-page img {
+    position: relative;
+    top: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main Text */
+
+section#main-text {
+    color: lavender;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Manrope;
+}
+
+section#main-text h2 {
+    position: relative;
+    top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Contact */
+
+section#contact {
+    height: 35vh;
+}
+
+section#contact h1 {
+    text-align: center;
+    color: lavender;
+    font-size: 2rem;
+    font-family: carrinady;
+    font-size: 6rem;
+}
+
+section#contact ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section#contact img {
+    height: 250px;
+    width: 250px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* END */

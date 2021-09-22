@@ -1,0 +1,49 @@
+@media   {
+    min-width: 900px;
+}
+@font-face {
+    font-family: Headache;
+    src: url("../Headache-Font-OTF/Headache-Font-OTF.otf") format("opentype");
+}
+@font-face {
+    font-family: Potra;
+    src: url("../Potra/Potra.otf") format("opentype");
+}
+@font-face {
+    font-family: Manrope;
+    src: url("../manrope/regular.otf") format("opentype");
+}
+body{
+    background-color: #040B13;
+}
+#Logo{
+    font-family: Headache;
+    position: absolute;
+    color: lavender;
+    font-size: 50px;
+    bottom: 82%;
+    left: 5%;
+}
+#menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    position: absolute;
+    left: 30%;
+    bottom: 82%;
+}
+#menu li {
+    color: lavender;
+    font-family: Potra;
+}
+#menu li:hover {
+    text-decoration: underline;
+}
+.main {
+    text-align: center;
+    font-size: 100px;
+    color: lavender;
+    position: relative;
+    top: 250px;
+    font-family: Manrope;
+}

@@ -1,0 +1,55 @@
+@media {
+    max-width: 800px;
+}
+@font-face {
+    font-family: Headache;
+    src: url("../Headache-Font-OTF/Headache-Font-OTF.otf") format("opentype");
+}
+@font-face {
+    font-family: Potra;
+    src: url("../Potra/Potra.otf") format("opentype");
+}
+@font-face {
+    font-family: Tenre Modern;
+    src: url("../Tenre\ Modern.ttf") format("TrueType");
+}
+@font-face {
+    font-family: Manrope;
+    src: url("../manrope/regular.otf") format("opentype");
+}
+body {
+    background-color: #D5CAC2;
+    background-image: url("../IMAGES/Banners/Banner\(mobile\).jpg");
+    background-size: 500px 810px;
+    background-repeat: no-repeat;
+}
+#Logo{
+    font-family: Headache;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    color: lavender;
+}
+#menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 25px;
+    position: relative;
+    flex-direction: column;
+}
+#menu li {
+    color: lavender;
+    margin: 10px;
+    /*font-family: Potra;*/
+    font-family: Tenre Modern;
+}
+#menu li:hover {
+    text-decoration: underline;
+}
+.main {
+    font-family: Manrope;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+}

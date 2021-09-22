@@ -1,0 +1,139 @@
+@media   {
+    min-width: 900px;
+}
+@font-face {
+    font-family: Headache;
+    src: url("../Headache-Font-OTF/Headache-Font-OTF.otf") format("opentype");
+}
+@font-face {
+    font-family: Potra;
+    src: url("../Potra/Potra.otf") format("opentype");
+}
+@font-face {
+    font-family: Manrope;
+    src: url("../manrope/regular.otf") format("opentype");
+}
+@font-face {
+    font-family: Carrinady;
+    src: url("../carrinady/Carrinady.otf") format("opentype");
+}
+body{
+    background-color: #040B13;
+    background-image: url("../IMAGES/Banners/Banner\(Blur\).jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+header {
+    padding-top: 5px;
+    background-color: rgba(0, 0 , 0, 0.7);
+    position: fixed;
+    width: 100%;
+}
+header #Logo {
+    text-align: center;
+    font-family: Headache;
+    color: lavender;
+    letter-spacing: 3px;
+    width: 100%;
+}
+header > #menu {
+    text-decoration: none;
+    color: lavender;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+header #menu li {
+    margin: 10px;
+    font-size: 1.6rem;
+    font-family: Potra;
+}
+header #menu li:hover {
+    color: lavenderblush;
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+    color: lavender;
+}
+
+/* Main */
+
+section#main h1 {
+    position: relative;
+    top: 20%;
+    font-family: carrinady;
+    font-size: 4rem;
+}
+section#main .content {
+    position: relative;
+    top: 20%;
+    font-size: 2rem;
+    font-family: manrope;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section#main .content ol li {
+    list-style-type: none;
+}
+section#main .content ol li:hover {
+    color: rgb(184, 184, 240);
+}
+
+/* History */
+
+section#history{
+    height: 215vh;
+}
+section#history h1 {
+    position: relative;
+    font-family: carrinady;
+    font-size: 4rem;
+    top: 10%;
+}
+
+section#history .content {
+    position: relative;
+    top: 10%;
+    font-size: 2rem;
+    font-family: manrope;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Working */
+section#working {
+    height: 150vh;
+}
+section#working h1 {
+    position: relative;
+    font-family: carrinady;
+    font-size: 4rem;
+    top: 10%;
+}
+section#working .content {
+    position: relative;
+    font-size: 2rem;
+    font-family: manrope;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 10%;
+}
+section#working .content ol {
+    list-style-type: none;
+}
